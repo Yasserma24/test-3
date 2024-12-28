@@ -38,6 +38,14 @@
     font-family: outfit_500;
     src: url(fonts/Outfit-Medium.ttf);
 }
+@font-face{
+    font-family: outfit_700;
+    src: url(fonts/Outfit-Bold.ttf);
+}
+@font-face{
+    font-family: outfit_900;
+    src: url(fonts/Outfit-ExtraBold.ttf);
+}
 
 
 body{
@@ -100,4 +108,13 @@ ul li:before {
   }
   #out_500{
     font-family: out_500;
+  }
+  #sub_400{
+    font-family: subjectivity_400;
+  }
+  #out_700{
+    font-family: outfit_700;
+  }
+  #out_900{
+    font-family: outfit_900;
   }

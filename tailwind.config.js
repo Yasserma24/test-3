@@ -8,17 +8,8 @@ module.exports = {
     './app.vue',
   ],
   theme: {
-    screens:{
-      'phone':'393px',
-      'tablet':'640px',
-      'laptop':'1024px',
-      'desktop':'1440px',
-    },
-    extend: {
-      colors:{
-        backgroundColor:'#FFFAE5',
-      }
-    },
+    
+    extend: {},
   },
   plugins: [],
 };
