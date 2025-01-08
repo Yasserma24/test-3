@@ -1,120 +1,63 @@
 @font-face{
-    font-family: outfit_1;
-    src: url(/fonts/Outfit-Black.ttf);
+  font-family: montserrat-400;
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 @font-face{
-    font-family: subjectivity_700;
-    src: url(/fonts/Subjectivity-Bold.otf);
+  font-family: montserrat-300;
+  src: url(fonts/Montserrat-Light.ttf);
 }
 @font-face{
-    font-family: clash_display_400;
-    src: url(/fonts/ClashDisplay-Regular.otf);
+  font-family: montserrat-600;
+  src: url(fonts/Montserrat-SemiBold.ttf);
 }
 @font-face{
-    font-family: subjectivity_400;
-    src: url(/fonts/Subjectivity-Regular.otf);
+  font-family: montserrat-700;
+  src: url(fonts/Montserrat-Bold.ttf);
 }
 @font-face{
-    font-family:subjectivity_light;
-    src:url(/fonts/Subjectivity-Light.otf);
+  font-family: poppins-400;
+  src: url(fonts/Poppins-Regular.ttf);
 }
 @font-face{
-    font-family: outfit_semibold;
-    src: url(/fonts/Outfit-SemiBold.ttf);
+  font-family: poppins-600;
+  src: url(fonts/Poppins-SemiBold.ttf);
 }
 @font-face{
-    font-family: outfit_400;
-    src: url(/fonts/Outfit-Regular.ttf);
+  font-family: poppins-700;
+  src: url(fonts/Poppins-Bold.ttf);
 }
 @font-face{
-    font-family: outfit_300;
-    src: url(fonts/Outfit-Light.ttf);
-}
-@font-face{
-    font-family: poppins_300;
-    src:url(fonts/Poppins-Light.ttf) ;
-}
-@font-face{
-    font-family: outfit_500;
-    src: url(fonts/Outfit-Medium.ttf);
-}
-@font-face{
-    font-family: outfit_700;
-    src: url(fonts/Outfit-Bold.ttf);
-}
-@font-face{
-    font-family: outfit_900;
-    src: url(fonts/Outfit-ExtraBold.ttf);
+  font-family: poppins-500;
+  src: url(fonts/Poppins-Medium.ttf);
 }
 
-
-body{
-    background-color: #FFFAE5;
-    margin-top:38px;
-    margin-left:50px;
+#mont_400{
+  font-family: montserrat-400;
 }
-
-#page_name{
-    font-family: subjectivity_700;
-    font-style: italic;
-    
-
+.dropdown-menu {
+  display: none;
 }
-#nav_part{
-    font-family:clash_display_400 ;
+.group:hover .dropdown-menu {
+  display: block;
 }
-#btn{
-    font-family: clash_display_400;
-    background-color: #FAC97A;
+#mont_300{
+  font-family: montserrat-300;
 }
-#down_icon{
-    background-color: #FAC97A;
+#mont_600{
+  font-family: montserrat-600;
 }
-#embrace{
-    font-family: outfit_1;
+#mont_700{
+  font-family: montserrat-700;
 }
-#second_p{
-    font-family: subjectivity_light;
-    font-style: italic;
-    font-weight: bold;
+#pop_400{
+  font-family: poppins-400;
 }
-#cont_1{
-    background-color: #FAC97A;
+#pop_600{
+  font-family: poppins-600;
 }
-ul {
-    list-style: none;
-  }
-ul li:before {
-    content: '✓';
-  }
-  li{
-    font-family: outfit_semibold;
-  }
-  #story{
-    font-family: outfit_1;
-    color: #C2C2C2;
-  }
-  #specialize{
-    font-family:outfit_semibold ;
-  }
-  #out_400{
-    font-family: outfit_400;
-  }
-  #out_300{
-    font-family:outfit_300 ;
-  }
-  #pop_300{
-    font-family: poppins_300;
-  }
-  #out_500{
-    font-family: out_500;
-  }
-  #sub_400{
-    font-family: subjectivity_400;
-  }
-  #out_700{
-    font-family: outfit_700;
-  }
-  #out_900{
-    font-family: outfit_900;
-  }
+#pop_700{
+  font-family: poppins-700;
+}
+#pop_500{
+  font-family:poppins-500
+}

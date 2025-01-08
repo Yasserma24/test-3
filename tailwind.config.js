@@ -9,7 +9,11 @@ module.exports = {
   ],
   theme: {
     
-    extend: {},
+    extend: {
+      backdropBlur: {
+        '2px': '2px',
+      },
+    },
   },
   plugins: [],
 };

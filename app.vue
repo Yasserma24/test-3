@@ -1,7 +1,12 @@
 <template>
-<div>
-    <headers/>
-    <mains/>
-    <foot/>
-</div>
+    <div>
+        <headers/>
+        <page1/>
+        <page2/>
+        <page3/>
+        <page4/>
+        <page5/>
+        <page-6/>
+        <footers/>
+    </div>
 </template>
