@@ -1,6 +1,6 @@
 <template>
     <div
-      class="w-screen max-w-[1920px]  px-[4px] mt-[39px]
+      class="w-screen max-w-[1920px]  px-[35px] mt-[39px]
       2xl:mr-[250px] 2xl:mt-[69.52px]
       xl:px-[100px] xl:mt-[59px]
       lg:px-[80px] lg:mt-[49px]
@@ -31,11 +31,11 @@
         </div>
   
         <!-- Content Section -->
-        <div class="flex flex-col gap-[15px] w-[200px]
+        <div class="flex flex-col gap-[15px] w-full
         2xl:w-[756px]
         xl:w-[700px]
-        lg:w-[400px]
-        md:w-[325px]
+        lg:w-full
+        md:w-full
         sm:w-[400px]">
           <p id="pop_600" class="text-[30px] whitespace-nowrap
           2xl:text-[65px]
@@ -43,12 +43,12 @@
           lg:text-[65px]
           md:text-[50px]
           sm:text-[35 px]">About Me</p>
-          <p id="pop_400" class="text-[15px] w-[200px]
-          2xl:w-[700px] 2xl:text-[21px]
-          xl:w-[650px] xl:text-[21px]
-          lg:w-[400px] lg:text-[16px]
-          md:w-[300px] md:text-[16px]
-          sm:w-[400px] sm:text-[14px]">
+          <p id="pop_400" class="text-[12px] w-full
+          2xl:w-full 2xl:text-[21px]
+          xl:w-full xl:text-[21px]
+          lg:w-full lg:text-[16px]
+          md:w-full md:text-[16px]
+          sm:w-full sm:text-[14px]">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus
             netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra
           </p>

@@ -43,13 +43,13 @@
                     md:text-[60px] md:top-[140px] md:right-[0px]
                     sm:text-[50px] sm:top-[75px] sm:right-[55px]" id="pop_700">Designer</p>
                 </div>
-                <p class="text-[15px] w-[200px] h-[150px] mt-[80px] 
+                <p class="text-[15px] w-full h-[150px] mt-[80px] 
                 2xl:text-[21px] 2xl:w-[698px] 2xl:h-[101px] 2xl:mt-[28px]
                 xl:text-[19px] xl:w-[668px] xl:h-[81px] xl:mt-[26px]
                 lg:text-[16px] lg:w-[300px] lg:h-[61px] lg:mt-[20px]
                 md:text-[15px] md:w-[325px] md:h-[41px] md:mt-[20px]
-                sm:text-[13px] sm:w-[300px] sm:h-[90px] sm:mt-[50px]" id="pop_400">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
-                <button class="bg-[#FD6F00]  text-white rounded-[5px] w-[70px] h-[30px] text-[15px] mt-[20px] mx-auto
+                sm:text-[13px] sm:w-full sm:h-[90px] sm:mt-[50px]" id="pop_400">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+                <button class="bg-[#FD6F00]  text-white rounded-[5px] w-[70px] h-[30px] text-[15px] mb-[30px] mt-[-20px] mx-auto
                 2xl:w-[188px] 2xl:h-[52px] 2xl:text-[21px] 2xl:mt-[22px] 2xl:ml-0
                 xl:w-[158px] xl:h-[50px] xl:text-[19px] xl:mt-[20px] xl:ml-0
                 lg:w-[120px] lg:h-[48px] lg:text-[16px] lg:mt-[70px] lg:ml-0

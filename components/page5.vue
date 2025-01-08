@@ -1,10 +1,11 @@
 <template>
-  <div class="w-screen mt-[20px]
-  2xl:mt-[139px]
-  xl:mt-[130px]
-  lg:mt-[100px]
-  md:mt-[80px]
-  sm:mt-[60px]">
+  <div>
+  <div class=" hidden w-screen mt-[20px] 
+  2xl:mt-[139px] 2xl:block
+  xl:mt-[130px] xl:block
+  lg:mt-[100px] lg:block
+  md:mt-[80px] md:block   
+  sm:mt-[60px]  sm:block">
     <p id="pop_600" class="text-[33px] text-center
     2xl:text-[65px]
     xl:text-[60px]
@@ -93,6 +94,43 @@
       </div>
     </div>
   </div>
+  <div class="w-screen mt-[20px] px-[35px] 2xl:hidden xl:hiiden lg:hidden md:hidden sm:hidden">
+      <p class="text-[33px] text-center" id="pop_600">Testimonials</p>
+      <p class="text-[12px] text-center " >Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
+      <div class="w-full max-w-4xl mx-auto">
+    <swiper
+      :slides-per-view="1"
+      :space-between="20"
+      @slideChange="onSecondSlideChange"
+      @init="onSecondInit"
+      pagination
+      class="my-swiper mt-[20px]"
+    >
+      <swiper-slide
+        v-for="(item, index) in items"
+        :key="index"
+        class="flex flex-col items-center justify-center bg-gray-100 p-6 rounded-lg shadow-md"
+      >
+        <nuxt-img :src="item.photo" alt="Image" class="w-[80px] h-[80px] object-cover rounded-full" />
+        <p class="mt-4 text-[13px] " id="pop_400">{{ item.title }}</p>
+        <p class="mt-2 text-[15px]" id="pop_500">Name</p>
+        <p class="mt-2 text-[10px]" id="pop_400">CEO</p>
+      </swiper-slide>
+    </swiper>
+    <div class="flex justify-center gap-2 mt-[20px]">
+  <span
+    v-for="(item, index) in items"
+    :key="index"
+    :class="{
+      'bg-[#FD6F00] scale-110': index === activeIndex,
+      'bg-[#ccc]': index !== activeIndex
+    }"
+    class="w-[57px] h-[10px] rounded-[5px] transition-all"
+  ></span>
+</div>
+  </div>
+  </div>
+</div>
 </template>
 
 <script>
@@ -132,6 +170,28 @@ export default {
           name:"",
         },
       ],
+      items: [
+        {
+          photo: "images/Ellipse 10.png",
+          title: "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+          description: "Description for Photo 1",
+        },
+        {
+          photo: "images/Ellipse 11.png",
+          title: "hkasjdhkjadhaskjdh askjdhasjkdhaskjdhksjhasjkdhasjkhasjkdhs ajkdhasjkhjaskdhkjasdjasdjkasdhjas khsajkdhskjdhasjkdhsajkhasjkhasjkdhsajkd hsajkdhsajkdhsadkjhsadkjhasdjkashkjahkjsadhjksadjksadhjskdhjaskd hjskdhsadkjhsadjkhsdj",
+          description: "Description for Photo 2",
+        },
+        {
+          photo: "https://via.placeholder.com/150",
+          title: "Photo 3",
+          description: "Description for Photo 3",
+        },
+        {
+          photo: "https://via.placeholder.com/150",
+          title: "Photo 4",
+          description: "Description for Photo 4",
+        },
+      ],
       activeIndex: 0, // Index of the currently active slide
     };
   },
@@ -144,6 +204,14 @@ export default {
       // Initialize active index on component mount
       this.activeIndex = swiper.realIndex;
     },
+    onSecondSlideChange(swiper) {
+    // Update activeIndex for the second Swiper
+    this.activeIndex = swiper.activeIndex;
+  },
+  onSecondInit(swiper) {
+    // Initialize active index for the second Swiper
+    this.activeIndex = swiper.activeIndex;
+  },
   },
 };
 </script>
