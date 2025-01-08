@@ -33,7 +33,7 @@
           :class="{ 'scale-105 filter-none': index === activeIndex, 'filter blur opacity-50 scale-95': index !== activeIndex }"
           class="w-screen swiper-slide-gap"
         >
-          <div class="flex  justify-center flex-col w-[200px] max-w-[1087px] h-[400px] bg-[#F8F8F8] text-white rounded-lg shadow-lg pl-[100px] px-[33px]
+          <div class="flex  justify-center flex-col w-[200px] max-w-[1087px] h-[400px] bg-[#F8F8F8] text-white rounded-lg shadow-lg pl-[0px] px-[33px]
           2xl:h-[344px] 2xl:pl-[48px] 2xl:px-[54px] 2xl:w-full
           xl:h-[344px] xl:pl-[44px] xl:px-[51px] xl:w-full
           lg:h-[370px] lg:pl-[40px] lg:px-[48px] lg:w-full
@@ -51,18 +51,18 @@
             lg:h-[200px] lg:w-[200px] lg:mb-[12px]
             md:h-[150px] md:w-[150px] md:mb-[8px]
             sm:h-[100px] sm:w-[100px] sm:mb-[3px]" />
-            <div class="flex flex-col w-[250px] gap-[0]
+            <div class="flex flex-col w-[100px] gap-[0]
             2xl:w-[600px] 2xl:flex 2xl:flex-col
             xl:w-[500px] xl:flex xl:flex-col 
             lg:w-[280px] lg:flex lg:flex-col
             md:w-[400px] md:flex md:flex-col
             sm:w-[500px] sm:flex sm:flex-col">
-            <p class="text-[10px] text-[#424242]
+            <p class="text-[7px] text-[#424242]
             2xl:text-[21px]
             xl:text-[21px]
             lg:text-[18px]
             md:text-[16px]
-            sm:text-[17px]" id="pop_400"><span class="text-[#FD6F00] text-[32px]" id="pop_700">“</span> {{ slide.title }}<span class="text-[32px] text-[#FD6F00]" id="pop_700"> “</span></p>
+            sm:text-[15px]" id="pop_400"><span class="text-[#FD6F00] text-[32px]" id="pop_700">“</span> {{ slide.title }}<span class="text-[32px] text-[#FD6F00]" id="pop_700"> “</span></p>
             <p class="text-[14px] text-[#000000]
             2xl:text-[24px]
             xl:text-[24px]
@@ -115,7 +115,7 @@ export default {
         },
         {
           img: "images/Ellipse 11.png", // Replace with your image source
-          title: "asdlkasdjaslkdjaslkdjaslkjdlaskjdlaskjdlaskjdlkasdjl",
+          title: "asdlkasdjaslkdjaslkdjaslkjdlaskjd",
           description: "Name",
           name:"CEO",
         },

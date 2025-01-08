@@ -21,7 +21,7 @@
         sm:w-[300px] sm:h-[500px]">
           <nuxt-img src="images/Group 7.png" class="w-full h-full object-contain" />
           <div
-            class="w-[65px] h-[15px] bg-[#FD6F0099] absolute top-[30%] left-[17%]
+            class="w-[70px] h-[22px] bg-[#FD6F0099] absolute top-[21%] left-[25%]
             2xl:w-[374px] 2xl:h-[83px] 2xl:top-[15%] 2xl:left-[18%]
             xl:w-[250px] xl:h-[65px] xl:top-[17%] xl:left-[16%]
             lg:w-[180px] lg :h-[40px] lg:top-[18%] lg:left-[25%]
